@@ -1,0 +1,14 @@
+{
+  "author": "matt-in-a-hat",
+  "content_scripts": [{
+      "js": ["contentscript.js"],
+      "run_at": "document_idle",
+      "matches": ["<all_urls>"]
+  }],
+  "description": "Happy Birthday Dad!",
+  "manifest_version": 2,
+  "name": "Error 60",
+  "permissions": [],
+  "version": "1.0",
+  "web_accessible_resources": ["images/*.png"]
+}
