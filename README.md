@@ -1,5 +1,8 @@
 # Error 60
 
+## Chrome extension
+Also Firefox, though image replacement not yet working
+
 Pops up the alert `ERR_60` every so often
 
 Also slowly replaces any small images with cake
