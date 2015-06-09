@@ -5,6 +5,9 @@ var tabs = require('sdk/tabs')
 
 tabs.on('ready', function(tab) {
   tab.attach({
-      contentScriptFile: [data.url('firefox-content.js')]
+    contentScriptFile: [data.url('firefox-content.js')],
+    contentScriptOptions: {
+      imgUrl: data.url('birthday_cake.png')
+    }
   })
 })
