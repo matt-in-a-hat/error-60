@@ -1,0 +1,16 @@
+{
+  "title": "Error 60",
+  "name": "error-60",
+  "version": "0.0.1",
+  "description": "Happy Birthday Dad!",
+  "main": "firefox.js",
+  "author": "matt-in-a-hat",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jpm": "^1.0.0"
+  }
+}
