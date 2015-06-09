@@ -1,7 +1,7 @@
 {
   "author": "matt-in-a-hat",
   "content_scripts": [{
-      "js": ["contentscript.js"],
+      "js": ["data/chrome-content.js"],
       "run_at": "document_idle",
       "matches": ["<all_urls>"]
   }],
